@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
+// 'npm start' command to run react project
 
 function App() {
   const [message, setMessage] = useState('');
