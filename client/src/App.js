@@ -1,3 +1,5 @@
+import './App.css';
+
 import React, { useState, useEffect } from 'react';
 
 // 'npm start' command to run react project
@@ -13,7 +15,7 @@ function App() {
   }, []);
 
   return (
-    <div class="App">
+    <div class="App-header">
       <h1>from API: {message}</h1>
       <h2>test</h2>
     </div>
