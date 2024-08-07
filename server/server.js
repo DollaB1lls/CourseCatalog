@@ -23,13 +23,6 @@ mongoose.connect(MONGOURL).then(()=>{
 }).catch((error) => console.log(error));
 
 
-
-// app.get("/getCourses", async(req, res)=>{
-//     const courseData = await CourseModel.find();
-//     res.json(courseData); 
-// });
-
-
 app.get('/', (req, res) => {
     res.send("hello world")
 });
