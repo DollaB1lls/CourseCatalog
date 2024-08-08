@@ -1,0 +1,29 @@
+/* pixelicious.xyz for designing logo for landing page */
+
+.header{
+  background-color: #17434b;
+  font: bold;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+
+}
+
+.landing-page {
+    text-align: center;
+    margin-top: 0px;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  

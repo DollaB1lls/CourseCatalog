@@ -24,7 +24,7 @@ mongoose.connect(MONGOURL).then(()=>{
 
 
 app.get('/', (req, res) => {
-    res.send("hello world")
+    res.send("hello there")
 });
 
 app.use("/api", userRoutes)
