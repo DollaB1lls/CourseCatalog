@@ -1,40 +1,44 @@
 
-/* Header.css */
-.header {
+/* header.css */
+.headerCom {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #333;
-    color: white;
+    justify-content: space-between; /* Space out items */
+    align-items: center;           /* Center items vertically */
+    padding: 10px 20px;            /* Add padding around the header */
+    background-color: #17434b;        /* Example background color */
+    color: white;                  /* Example text color */
   }
   
-  .logo h1 {
-    margin: 0;
+  .logo img {
+    height: 50px;                  /* Ensure image size */
   }
   
   .nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+    list-style: none;              /* Remove default list styling */
+    margin: 0;                     /* Remove default margin */
+    padding: 0;                    /* Remove default padding */
+                     /* Align list items horizontally */
   }
   
   .nav li {
-    margin: 0 10px;
+    margin: 0 15px;                /* Space between menu items */
   }
   
   .nav a {
-    color: white;
-    text-decoration: none;
+    color: white;                  /* Example text color */
+    text-decoration: none;         /* Remove underline from links */
   }
   
   .nav a:hover {
-    text-decoration: underline;
+    text-decoration: underline;    /* Underline on hover */
   }
   
   .user-profile a {
-    color: white;
-    text-decoration: none;
+    color: white;                  /* Example text color */
+    text-decoration: none;         /* Remove underline from link */
+  }
+  
+  .user-profile a:hover {
+    text-decoration: underline;    /* Underline on hover */
   }
   

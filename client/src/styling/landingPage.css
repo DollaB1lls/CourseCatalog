@@ -1,8 +1,6 @@
 /* pixelicious.xyz for designing logo for landing page */
 
 .header{
-  display: flex;
-  flex-direction: column;
   background-color: #17434b;
   font: bold;
   color: white;

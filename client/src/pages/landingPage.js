@@ -9,7 +9,7 @@ const LandingPage = () => {
   return (
     <div className="landing-page">
       <div className="header">
-      <img src={iuplogo} alt="iup" />
+      <img src={iuplogo} alt="iup"/>
       <h1>Welcome to Crimson Catalog</h1>
       <h3>Here you can view courses offered at IUP</h3>
       </div>
