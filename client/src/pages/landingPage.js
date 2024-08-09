@@ -9,7 +9,7 @@ const LandingPage = () => {
   return (
     <div className="landing-page">
       <div className="header">
-      <img src={iuplogo} />
+      <img src={iuplogo} alt="iup" />
       <h1>Welcome to Crimson Catalog</h1>
       <h3>Here you can view courses offered at IUP</h3>
       </div>
@@ -17,6 +17,7 @@ const LandingPage = () => {
         <button onClick={() => window.location.href = '/home'}>View Courses</button>
         <button onClick={() => window.location.href = '/signin'}>Sign In / Sign Up</button>
       </div>
+    
     </div>
     
   );
