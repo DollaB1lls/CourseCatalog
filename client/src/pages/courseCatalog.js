@@ -1,22 +1,22 @@
 
 import React from 'react';
 import '../styling/landingPage.css';
-//import crimsonhawk from '../pictures/hawk.png';
-import iuplogo from '../pictures/iuplogo.png';
 import Header from '../components/header';
 import LeftSidebar from '../components/leftSidebar';
-
+import CourseList from '../components/CourseList';
 
 const LandingPage = () => {
-    return(
+
+    return (
         <div className="catalog">
-        <Header />
-      <LeftSidebar />
-      <h1>WIP</h1>
-      </div>
+            <Header />
+            <LeftSidebar />
+            <CourseList />
+            <h1>WIP</h1>
+        </div>
     );
 
-    
+
 };
 
 export default LandingPage;

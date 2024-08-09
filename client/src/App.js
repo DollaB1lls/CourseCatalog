@@ -1,7 +1,7 @@
 import './styling/App.css';
 import './styling/global.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 import HomePage from './pages/homePage';
 import SignInPage from './pages/signInPage';
