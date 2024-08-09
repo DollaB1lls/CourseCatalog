@@ -5,6 +5,7 @@ const SignInPage = () => {
   return (
     <div>
       <h1>Sign In / Sign Up</h1>
+      <p>WIP</p>
     </div>
   );
 };

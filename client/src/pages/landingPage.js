@@ -1,12 +1,15 @@
 
 import React from 'react';
+import '../styling/global.css'
 import '../styling/landingPage.css';
+
 //import crimsonhawk from '../pictures/hawk.png';
 import iuplogo from '../pictures/iuplogo.png';
 
 
 const LandingPage = () => {
   return (
+    <body>
     <div className="landing-page">
       <div className="header">
       <img src={iuplogo} alt="iup"/>
@@ -19,6 +22,7 @@ const LandingPage = () => {
       </div>
     
     </div>
+    </body>
     
   );
 };

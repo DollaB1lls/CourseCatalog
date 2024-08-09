@@ -6,7 +6,8 @@
     align-items: center;           /* Center items vertically */
     padding: 10px 20px;            /* Add padding around the header */
     background-color: #17434b;        /* Example background color */
-    color: white;                  /* Example text color */
+    color: white;     
+    box-shadow: 2px 0 25px rgba(0, 0, 0, .5);             /* Example text color */
   }
   
   .logo img {
