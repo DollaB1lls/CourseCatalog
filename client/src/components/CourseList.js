@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { getCourses } from '../services/api';
 import CourseItem from './CourseItem';
+import CourseTable from './courseTable';
 
  const CourseList = () => {
   const [courses, setCourses] = useState([]);
